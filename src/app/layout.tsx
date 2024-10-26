@@ -1,20 +1,18 @@
-import './globals.css';
-import classNames from 'classnames';
-import { Analytics } from '@vercel/analytics/react';
-import { Inter } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react";
+import classNames from "classnames";
+import type { Metadata } from "next";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] });
-
-export const metadata = {
-  title: 'NextJs 14',
-  description: 'Nextjs 14 starter template',
+export const metadata: Metadata = {
+  title: "NextJs 15",
+  description: "Nextjs 15 starter template",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <head>
@@ -32,9 +30,10 @@ export default function RootLayout({
         <meta property="og:image" content="https://i.imgur.com/Z3bMJXy.jpg" />
         <meta name="twitter:image" content="https://i.imgur.com/Z3bMJXy.jpg" />
       </head>
+      {/* //! If you don't want 'screen size' visible at the left bottom of the browser window, You can remove `debug-screens` class */}
       <body
-        className={classNames({
-          'debug-screens': process.env.NODE_ENV === 'development',
+        className={classNames("antialiased", {
+          "debug-screens": process.env.NODE_ENV === "development",
         })}
       >
         {children}

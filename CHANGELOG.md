@@ -1,5 +1,12 @@
 # Change Log
 
+> October 26, 2024_
+
+- Version 3.0.0
+- Ships with latest Nextjs 15
+- Build from ground up
+- Removed airbnb eslint config
+
 > October 3, 2024_
 
 - Version 2.2.14

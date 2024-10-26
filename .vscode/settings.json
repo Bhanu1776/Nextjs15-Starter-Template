@@ -1,5 +1,5 @@
 {
-  //* For eslint-airbnb
+  //* For eslint
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },

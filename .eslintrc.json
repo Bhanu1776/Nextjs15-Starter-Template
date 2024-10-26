@@ -1,8 +1,7 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "airbnb",
-    "airbnb-typescript",
+    "next/typescript",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {

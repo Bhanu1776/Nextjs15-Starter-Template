@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+/* eslint-disable */
+import type { NextConfig } from "next";
 
 const runtimeCaching = require("next-pwa/cache");
 const withPWA = require("next-pwa")({
@@ -6,13 +7,14 @@ const withPWA = require("next-pwa")({
   register: true,
   skipWaiting: true,
   runtimeCaching,
-  disable: process.env.NODE_ENV === 'development',
+  disable: process.env.NODE_ENV === "development",
 });
 
-const nextConfig = withPWA({
+const nextConfig: NextConfig = withPWA({
   eslint: {
-    dirs: ['app'],
+    dirs: ["src"],
     ignoreDuringBuilds: true,
   },
 });
-module.exports = nextConfig;
+
+export default nextConfig;

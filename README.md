@@ -1,4 +1,4 @@
-# Next.js 14 Starter Template
+# Next.js 15 Starter Template
 
 <p align='center'>
 <a href="https://starter-website-sigma.vercel.app/">Live Demo</a>
@@ -6,7 +6,7 @@
 
 ## Features ✨
 
-- ⚡️ [Next 14](https://nextjs.org/docs) - with app router
+- ⚡️ [Next 15](https://nextjs.org/docs) - with app router
 - 🦾 [TypeScript](https://www.typescriptlang.org/), of course
 - 🎨 [Tailwindcss](https://tailwindcss.com/) - next generation utility-first CSS
 - 💡 [Eslint](https://eslint.org/) - with Airbnb config
@@ -31,7 +31,7 @@
 
 ### GitHub Template <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height=20 width=20 />
 
-[Create a repo from this template on GitHub](https://github.com/Bhanu1776/Nextjs14-Starter-Template/generate).
+[Create a repo from this template on GitHub](https://github.com/Bhanu1776/Nextjs15-Starter-Template/generate).
 
 ## Checklist ✅
 
@@ -69,6 +69,6 @@ Therefore, I created this template for myself to make creating apps easier, alon
 <hr>
 
 © 2023 Bhanu Sunka  
-This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/Nextjs14-Starter-Template/blob/master/LICENSE).
+This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/Nextjs15-Starter-Template/blob/master/LICENSE).
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process');
+const { execSync } = require("child_process");
 
 const runCommand = (command) => {
   try {
-    execSync(`${command}`, { stdio: 'inherit' });
+    execSync(`${command}`, { stdio: "inherit" });
   } catch (err) {
     console.error(err);
     return false;
@@ -13,21 +13,19 @@ const runCommand = (command) => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone https://github.com/Bhanu1776/Nextjs14-Starter-Template.git ${repoName}`;
+const gitCheckoutCommand = `git clone https://github.com/Bhanu1776/Nextjs15-Starter-Template.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && rm -rf bin .github && rm .npmrc CHANGELOG.md && npm install `;
 
 console.log(`Init project '${repoName}' ✨`);
 const checkedOut = runCommand(gitCheckoutCommand);
 if (!checkedOut) process.exit(-1);
 
-console.log('Installing dependencies...🔥');
+console.log("Installing dependencies...🔥");
 const installDeps = runCommand(installDepsCommand);
 if (!installDeps) process.exit(-1);
 
-console.log(
-  'SaxX! You are ready. Follow the following commands to start 🚀'
-);
-console.log('');
+console.log("SaxX! You are ready. Follow the following commands to start 🚀");
+console.log("");
 console.log(`Make sure you follow below steps to start fresh:`);
 console.log(`- Rename 'name' and 'author' fields in package.json`);
 console.log(`- Change the author name in "LICENSE"`);
