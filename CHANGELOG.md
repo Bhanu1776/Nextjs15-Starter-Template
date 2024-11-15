@@ -1,5 +1,12 @@
 # Change Log
 
+> November 15, 2024_
+
+- Version 3.0.3
+- Fix: Resolved compatibility issue with 'rm' command on Windows (#1)
+- chore: Enhanced terminal UI to be clearer and more concise.
+- build: Ships with NextJs 15.0.3
+
 > October 26, 2024_
 
 - Version 3.0.0
