@@ -1,5 +1,12 @@
 # Change Log
 
+> December 10, 2024_
+
+- Version 3.0.4
+- feat: Upgraded to React 19 stable
+- chore: Updated dependencies to latest versions
+- fix: Missing husky prepare script
+
 > November 15, 2024_
 
 - Version 3.0.3
