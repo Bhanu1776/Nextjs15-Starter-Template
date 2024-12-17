@@ -1,5 +1,5 @@
 {
-  "name": "@bhanu17/nextjs-starter",
+  "name": "@bhanu1776/nextjs-starter",
   "version": "3.1.0",
   "author": "bhanu1776",
   "license": "MIT",
@@ -41,7 +41,7 @@
     "url": "git+https://github.com/Bhanu1776/Nextjs14-Starter-Template"
   },
   "publishConfig": {
-    "@bhanu17:registry": "https://registry.npmjs.org/"
+    "@bhanu1776:registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://starter-website-sigma.vercel.app/",
   "keywords": [
