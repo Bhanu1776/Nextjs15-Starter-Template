@@ -1,6 +1,6 @@
 {
-  "name": "@bhanu1776/nextjs-starter",
-  "version": "3.0.4",
+  "name": "@bhanu17/nextjs-starter",
+  "version": "3.1.0",
   "author": "bhanu1776",
   "license": "MIT",
   "bin": "./bin/cli.js",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
-    "next": "15.0.4",
+    "next": "15.1.0",
     "next-pwa": "^5.6.0",
     "prettier": "^3.4.2",
     "react": "19.0.0",
@@ -21,27 +21,27 @@
     "tailwindcss-debug-screens": "^2.2.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.4",
-    "husky": "^9.1.7",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.16",
     "classnames": "^2.5.1",
-    "typescript": "^5",
-    "prettier": "^3.3.3",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "prettier-plugin-tailwindcss": "^0.6.9"
+    "husky": "^9.1.7",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.16",
+    "typescript": "5.7.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bhanu1776/Nextjs14-Starter-Template"
   },
   "publishConfig": {
-    "@bhanu1776:registry": "https://npm.pkg.github.com"
+    "@bhanu17:registry": "https://registry.npmjs.org/"
   },
   "homepage": "https://starter-website-sigma.vercel.app/",
   "keywords": [
