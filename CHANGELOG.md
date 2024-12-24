@@ -1,5 +1,10 @@
 # Change Log
 
+> December 24, 2024_
+
+- Version 3.1.2
+- feat: Upgraded to Nextjs 15.1.2
+
 > December 17, 2024_
 
 - Version 3.1.0
