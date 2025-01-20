@@ -1,5 +1,11 @@
 # Change Log
 
+> January 20, 2025_
+
+- Version 3.1.5
+- feat: Upgraded to Nextjs 15.1.5
+- fix: Formatting was broken due to eslint v9, rollback to v8.
+
 > December 24, 2024_
 
 - Version 3.1.2
