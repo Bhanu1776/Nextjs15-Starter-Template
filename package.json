@@ -1,6 +1,6 @@
 {
   "name": "@bhanu1776/nextjs-starter",
-  "version": "3.1.5",
+  "version": "3.1.7",
   "author": "bhanu1776",
   "license": "MIT",
   "bin": "./bin/cli.js",
@@ -12,27 +12,27 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.4.1",
-    "next": "15.1.5",
+    "@vercel/analytics": "^1.5.0",
+    "next": "15.1.7",
     "next-pwa": "^5.6.0",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "tailwindcss-debug-screens": "^2.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
-    "@types/react": "^19.0.7",
+    "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "classnames": "^2.5.1",
     "eslint": "^8",
-    "eslint-config-next": "15.1.5",
+    "eslint-config-next": "15.1.7",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
     "husky": "^9.1.7",
-    "postcss": "^8.5.1",
-    "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.10",
+    "postcss": "^8.5.2",
+    "prettier": "^3.5.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^3.4.17",
     "typescript": "5.7.3"
   },
