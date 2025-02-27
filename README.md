@@ -1,4 +1,4 @@
-# Next.js 15 Starter Template
+# Next.js 15.2 Starter Template
 
 <p align='center'>
 <a href="https://starter-website-sigma.vercel.app/">Live Demo</a>
@@ -6,7 +6,7 @@
 
 ## Features ✨
 
-- ⚡️ [Next 15.1](https://nextjs.org/docs) - with app router
+- ⚡️ [Next 15.2](https://nextjs.org/docs) - with app router
 - 🦾 [TypeScript](https://www.typescriptlang.org/), of course
 - 🎨 [Tailwindcss](https://tailwindcss.com/) - next generation utility-first CSS
 - 💡 [Eslint](https://eslint.org/) - with Airbnb config

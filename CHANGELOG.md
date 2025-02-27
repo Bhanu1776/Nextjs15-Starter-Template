@@ -1,4 +1,9 @@
-# Change Log
+# CHANGELOG
+
+> February 27, 2025_
+
+- Version 3.2.0
+- feat: Upgraded to latest Nextjs 15.2.0
 
 > February 11, 2025_
 
