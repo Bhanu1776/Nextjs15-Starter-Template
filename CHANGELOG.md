@@ -1,5 +1,10 @@
 # CHANGELOG
 
+> March 12, 2025_
+
+- Version 3.2.2
+- feat: Upgraded to latest Nextjs 15.2.2
+
 > February 27, 2025_
 
 - Version 3.2.0
