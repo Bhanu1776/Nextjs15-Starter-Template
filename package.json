@@ -1,6 +1,6 @@
 {
   "name": "@bhanu1776/nextjs-starter",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "author": "bhanu1776",
   "license": "MIT",
   "bin": "./bin/cli.js",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
-    "next": "15.2.3",
+    "next": "15.2.4",
     "next-pwa": "^5.6.0",
     "prettier": "^3.5.3",
     "react": "19.0.0",
@@ -21,14 +21,14 @@
     "tailwindcss-debug-screens": "^2.2.1"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10",
-    "@types/react": "^19.0.11",
+    "@types/node": "^22.13.13",
+    "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "classnames": "^2.5.1",
     "eslint": "^8",
-    "eslint-config-next": "15.2.3",
+    "eslint-config-next": "15.2.4",
     "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-prettier": "^5.2.5",
     "husky": "^9.1.7",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
