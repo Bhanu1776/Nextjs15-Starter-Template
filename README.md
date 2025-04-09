@@ -68,7 +68,7 @@ Therefore, I created this template for myself to make creating apps easier, alon
 
 <hr>
 
-© 2023 Bhanu Sunka  
+© 2025 Bhanu Sunka  
 This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/Nextjs15-Starter-Template/blob/master/LICENSE).
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
