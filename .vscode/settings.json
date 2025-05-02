@@ -1,12 +1,33 @@
 {
-  //* For eslint
+  //* ESLint integration with Prettier
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["javascript", "typescript"],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.useFlatConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.autoImportFileExcludePatterns": ["@radix-ui/*"],
+  "typescript.preferences.autoImportSpecifierExcludeRegexes": [
+    "@radix-ui",
+    "next/router",
+    "next/dist"
+  ]
 }

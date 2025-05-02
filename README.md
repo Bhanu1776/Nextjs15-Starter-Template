@@ -1,4 +1,4 @@
-# Next.js 15.2 Starter Template
+# Next.js 15 Starter Template
 
 <p align='center'>
 <a href="https://starter-website-sigma.vercel.app/">Live Demo</a>
@@ -6,15 +6,12 @@
 
 ## Features ✨
 
-- ⚡️ [Next 15.2](https://nextjs.org/docs) - with app router
+- ⚡️ [Next 15.x.x](https://nextjs.org/docs) - why not?
 - 🦾 [TypeScript](https://www.typescriptlang.org/), of course
 - 🎨 [Tailwindcss](https://tailwindcss.com/) - next generation utility-first CSS
-- 💡 [Eslint](https://eslint.org/) - with Airbnb config
+- 💡 [Eslint](https://eslint.org/) - Flat config with ts-parser, react-hooks-extra plugin and security-plugin
 - 💖 [Prettier](https://prettier.io/) - configured with Eslint and with Tailwindcss-prettier support
-- 🐶 [Husky](https://typicode.github.io/husky/) - Improves your commits and more woof!
-- 🌚 [Dark Mode](https://tailwindcss.com/docs/dark-mode)
-- 🪢 [CSS Modules](https://github.com/css-modules/css-modules)
-- 🗂 [cz-git](https://cz-git.qbb.sh/) - Git commit CLI with custom config
+- 🐶 [Husky](https://typicode.github.io/husky/)
 - 🚀 [PWA](https://web.dev/progressive-web-apps/) - Native app experience
 - 💣 [pnpm](https://pnpm.io/ "Make sure to install pnpm globally before installing this template => npm i -g pnpm") - Fast, disk space efficient package manager
 - ☁️ Deploy on [Vercel](https://vercel.com/), One click to deploy, Inbuilt Analytics support
@@ -27,7 +24,7 @@
   npx @bhanu17/nextjs-starter my-app
 ```
 
- Make sure to replace **my-app** with your desired name
+Make sure to replace **my-app** with your desired name
 
 ### GitHub Template <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height=20 width=20 />
 
@@ -37,7 +34,7 @@
 
 Try to follow the checklist when using this template to properly update your information.
 
-- [ ] Rename *name* and *author* fields in `package.json`
+- [ ] Rename _name_ and _author_ fields in `package.json`
 - [ ] Change the author name in `LICENSE`
 - [ ] Change the title and description in `layout.tsx`
 - [ ] Modify the manifest in `public`

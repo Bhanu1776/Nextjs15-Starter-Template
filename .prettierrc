@@ -1,9 +1,51 @@
 {
-  "trailingComma": "all",
+  "trailingComma": "es5",
   "tabWidth": 2,
   "semi": true,
   "useTabs": false,
   "printWidth": 80,
   "jsxSingleQuote": false,
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "endOfLine": "lf",
+  "singleQuote": false,
+  "importOrder": [
+    "// NEXTJS IMPORTS",
+    "^next/(.*)$",
+    "^next-[a-z]+/(.*)$",
+
+    "// REACT IMPORTS",
+    "^react(/.*)?$",
+    "^react-[a-z]+/(.*)$",
+
+    "// CORE IMPORTS",
+    "^@core/(.*)$",
+
+    "// SERVER IMPORTS",
+    "^@server/(.*)$",
+
+    "// UI IMPORTS",
+    "^@ui/(.*)$",
+
+    "// EXTERNAL LIBRARY IMPORTS",
+    "^[a-zA-Z]",
+
+    "// INTERNAL IMPORTS",
+    "^@/env(.*)$",
+    "^@/types/(.*)$",
+    "^@/config/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/components/ui/(.*)$",
+    "^@/components/(.*)$",
+    "^@/styles/(.*)$",
+    "^@/app/(.*)$",
+    "",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
 }

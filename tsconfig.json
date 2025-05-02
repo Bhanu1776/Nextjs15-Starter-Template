@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -11,17 +12,23 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "verbatimModuleSyntax": true,
     "jsx": "preserve",
     "incremental": true,
-    "outDir": "./bin",
-    "rootDir": "/",
     "plugins": [
       {
         "name": "next"
+      },
+      {
+        "name": "ts-plugin-sort-import-suggestions",
+        "moveUpPatterns": ["@/", "\\.{1,2}/", "./src/lib/*", "./hooks/*"],
+        "moveDownPatterns": ["@radix-ui", "lucide-react", "dist"]
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@hooks/*": ["./src/hooks/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
