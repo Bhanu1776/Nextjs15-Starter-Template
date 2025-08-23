@@ -21,7 +21,9 @@ const runCommand = (command) => {
   try {
     execSync(command, { stdio: "inherit" });
   } catch (err) {
-    console.error(`${styles.red}${styles.bright}Error: ${styles.reset}${styles.red}${err}${styles.reset}`);
+    console.error(
+      `${styles.red}${styles.bright}Error: ${styles.reset}${styles.red}${err}${styles.reset}`
+    );
     return false;
   }
   return true;
@@ -39,7 +41,9 @@ const removeItems = (dir, items) => {
         }
       }
     } catch (err) {
-      console.error(`${styles.red}Error removing ${item}: ${err}${styles.reset}`);
+      console.error(
+        `${styles.red}Error removing ${item}: ${err}${styles.reset}`
+      );
     }
   });
 };
@@ -49,7 +53,9 @@ const gitCheckoutCommand = `git clone https://github.com/Bhanu1776/Nextjs15-Star
 
 // Fancy banner
 console.log("\n" + "=".repeat(60));
-console.log(`${styles.cyan}${styles.bright}🚀 Initializing Project: ${styles.magenta}'${repoName}'${styles.reset}`);
+console.log(
+  `${styles.cyan}${styles.bright}🚀 Initializing Project: ${styles.magenta}'${repoName}'${styles.reset}`
+);
 console.log("=".repeat(60) + "\n");
 
 const checkedOut = runCommand(gitCheckoutCommand);
@@ -65,28 +71,38 @@ if (fs.existsSync(gitDirPath)) {
 const itemsToRemove = ["bin", ".github", ".npmrc", "CHANGELOG.md"];
 removeItems(repoName, itemsToRemove);
 
-console.log(`\n${styles.yellow}${styles.bright}📦 Installing dependencies...${styles.reset}`);
+console.log(
+  `\n${styles.yellow}${styles.bright}📦 Installing dependencies...${styles.reset}`
+);
 const installDeps = runCommand(`cd "${repoName}" && npm install`);
 if (!installDeps) process.exit(-1);
 
 // Success message and instructions
 console.log("\n" + "=".repeat(60));
-console.log(`${styles.green}${styles.bright}✨ Success! Project setup complete!${styles.reset}`);
+console.log(
+  `${styles.green}${styles.bright}✨ Success! Project setup complete!${styles.reset}`
+);
 console.log("=".repeat(60) + "\n");
 
 console.log(`${styles.blue}${styles.bright}📝 Next Steps:${styles.reset}`);
-console.log(`${styles.cyan}Follow these steps to customize your project:${styles.reset}\n`);
+console.log(
+  `${styles.cyan}Follow these steps to customize your project:${styles.reset}\n`
+);
 
 const steps = [
   "Rename 'name' and 'author' fields in package.json",
-  "Change the author name in \"LICENSE\"",
-  "Change the title and description in \"layout.tsx\"",
+  'Change the author name in "LICENSE"',
+  'Change the title and description in "layout.tsx"',
   "Modify the 'manifest' in public folder",
-  "Clean up the \"README.md\""
+  'Clean up the "README.md"',
 ];
 
 steps.forEach((step, index) => {
-  console.log(`${styles.yellow}${index + 1}.${styles.reset} ${styles.bright}${step}${styles.reset}`);
+  console.log(
+    `${styles.yellow}${index + 1}.${styles.reset} ${styles.bright}${step}${styles.reset}`
+  );
 });
 
-console.log(`\n${styles.green}${styles.bright}Happy coding! 🎉${styles.reset}\n`);
+console.log(
+  `\n${styles.green}${styles.bright}Happy coding! 🎉${styles.reset}\n`
+);
