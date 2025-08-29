@@ -3,6 +3,7 @@ import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";
 import tsParser from "@typescript-eslint/parser";
 import prettierConfig from "eslint-config-prettier";
+import betterTailwindcss from "eslint-plugin-better-tailwindcss";
 import prettierPlugin from "eslint-plugin-prettier";
 import reactHooksExtra from "eslint-plugin-react-hooks-extra";
 import security from "eslint-plugin-security";
@@ -100,9 +101,16 @@ const eslintConfig = [
     plugins: {
       "react-hooks-extra": reactHooksExtra,
       prettier: prettierPlugin,
+      "better-tailwindcss": betterTailwindcss,
+    },
+    settings: {
+      "better-tailwindcss": {
+        entryPoint: "src/app/globals.css",
+      },
     },
     rules: {
       ...sharedRules,
+      ...betterTailwindcss.configs.recommended.rules,
       "no-shadow": [
         2,
         {

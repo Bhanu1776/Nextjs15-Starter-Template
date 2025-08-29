@@ -1,5 +1,11 @@
 # CHANGELOG
 
+> April 09, 2025\_
+
+- Version 3.5.2
+- feat: Upgraded to latest Nextjs 15.5.2 and updated related deps
+- Removed prettier-plugin-tailwindcss and added eslint-plugin-better-tailwindcss for linting and formatting
+
 > Aug 24, 2025 — Version 3.5.0
 
 - refactor: full codebase rebuilt from scratch on Next.js 15.5.0  
