@@ -15,6 +15,12 @@ const nextConfig: NextConfig = withPWA({
     dirs: ["src"],
     ignoreDuringBuilds: true,
   },
+  // standalone output for Docker
+  // output: 'standalone',
+  typedRoutes: true,
+  images: {
+    remotePatterns: [],
+  },
 });
 
 export default nextConfig;

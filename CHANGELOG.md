@@ -1,6 +1,12 @@
 # CHANGELOG
 
-> April 09, 2025\_
+> Sept 15, 2025
+
+- Version 3.5.3
+- feat: Upgraded to latest Nextjs 15.5.3 and updated related deps
+- feat: Add knip, which finds and fixes unused dependencies, exports, and files.
+
+> Aug 30, 2025
 
 - Version 3.5.2
 - feat: Upgraded to latest Nextjs 15.5.2 and updated related deps
